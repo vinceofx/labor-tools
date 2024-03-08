@@ -39,37 +39,6 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-blender_plugin_name/
-│
-├── __init__.py               # 插件的入口点和注册信息
-├── operators.py              # 自定义操作（Operators）
-├── panels.py                 # 界面面板（Panels）
-├── properties.py             # 属性（Properties）定义数据结构
-│
-├── utils/
-│   ├── __init__.py           # 将 utils 目录作为模块
-│   ├── common_utils.py       # 通用工具函数
-│   └── specific_utils.py     # 特定工具函数
-│
-├── presets/
-│   ├── __init__.py           # 将 presets 目录作为模块
-│   └── some_preset.py        # 预设操作或配置
-│
-├── external_tools/
-│   ├── __init__.py           # 将 external_tools 目录作为模块
-│   └── some_external_tool.py # 外部工具接口等
-│
-├── icons/
-│   └── some_icon.png         # 图标资源
-│
-├── tests/
-│   ├── __init__.py           # 将 tests 目录作为模块
-│   ├── test_operators.py     # 测试 operators
-│   └── test_panels.py        # 测试 panels
-│
-└── README.md                 # 项目说明文件
-```
-
 这个结构包含的主要文件和目录含义是：
 
 - `__init__.py`：这是每个 Blender 插件必需的文件，它定义插件的元数据、依赖、注册、注销函数等。
