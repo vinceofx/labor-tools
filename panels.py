@@ -6,7 +6,7 @@ class ObjectPanel(bpy.types.Panel):
     bl_label = "便捷工具"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
-    bl_category = "Vince Tool"
+    bl_category = "Blender Labor"
 
     def draw(self, context):
         layout = self.layout
