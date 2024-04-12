@@ -13,7 +13,7 @@
 立即下载获取该应用程序。  
 如果您想在新功能发布稳定版本之前尝试它们，可以在 [此处](https://codeload.github.com/VINCEOFX/blender-labor/zip/refs/heads/main) 下载预览版本。
 
-##安装方法
+## 安装方法
 
 1. 下载插件压缩包。
 2. 在 Blender 菜单中打开 "编辑>>偏好设置" 选项卡。
